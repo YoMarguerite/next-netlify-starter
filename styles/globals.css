@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  padding: 5rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -27,9 +27,14 @@ code {
 }
 
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.head-img {
+  border-radius: 50%;
+  max-height: 10rem;
+  margin-top:3rem;
 }

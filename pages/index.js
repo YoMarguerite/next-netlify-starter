@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Nav from '@components/Nav'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -11,9 +13,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Fio fio" />
+        <Nav active="Home"/>
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Home
         </p>
       </main>
 
