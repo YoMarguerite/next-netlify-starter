@@ -7,7 +7,7 @@ export default function Footer() {
         <div class="container">
           <div class="row">
             <div class="col">
-            <img src="/icons8-fb.svg" alt="Fb Logo" className={styles.logo} />
+            <img src="/styles/logo/behance.svg" alt="Fb Logo" className={styles.logo} />
             </div>
             <div class="col">
             <img src="/icons8-linkedin.svg" alt="Linkedin Logo" className={styles.logo} />

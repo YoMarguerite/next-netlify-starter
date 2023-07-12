@@ -15,6 +15,12 @@ export default function Nav({ active }) {
                             <button onClick={() => router.push('/')} className={`nav-link ${active == "Home" ? "active" : ""}`}>Home</button>
                         </li>
                         <li class="nav-item">
+                            <button onClick={() => router.push('/motion')} className={`nav-link ${active == "Motion" ? "active" : ""}`}>Motion</button>
+                        </li>
+                        <li class="nav-item">
+                            <button onClick={() => router.push('/graphics')} className={`nav-link ${active == "Graphics" ? "active" : ""}`}>Graphics</button>
+                        </li>
+                        <li class="nav-item">
                             <button onClick={() => router.push('/about')} className={`nav-link ${active == "About" ? "active" : ""}`}>About</button>
                         </li>
                         <li class="nav-item">
