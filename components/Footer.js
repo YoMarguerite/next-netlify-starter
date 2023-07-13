@@ -7,18 +7,17 @@ export default function Footer() {
         <div class="container">
           <div class="row">
             <div class="col">
-            <img src="/styles/logo/behance.svg" alt="Fb Logo" className={styles.logo} />
+            <img src="/instagram.svg" className={styles.logo} />
             </div>
             <div class="col">
-            <img src="/icons8-linkedin.svg" alt="Linkedin Logo" className={styles.logo} />
+            <img src="/vimeo.svg" className={styles.logo} />
             </div>
             <div class="col">
-            <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
+            <img src="/behance.svg" className={styles.logo} />
             </div>
-          </div>
-          <div class="row">
-            <p>icons by <a target="_blank" href="https://icons8.com">Icons8</a>
-            </p>
+            <div class="col">
+            <img src="/linkedin.svg" className={styles.logo} />
+            </div>
           </div>
         </div>
       </footer>
