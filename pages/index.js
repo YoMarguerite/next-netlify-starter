@@ -19,7 +19,7 @@ export default function Home() {
         <div class="container">
 
           <div class="row my-3">
-              <video width="100%" autoPlay={true} muted loop>
+              <video width="100%" controls>
                 <source src="/fiona_motion/Logo Home/Showreel Fiona Marguerite.mp4" type="video/mp4"/>
                 Error Message
             </video>
