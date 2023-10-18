@@ -21,19 +21,19 @@ export default function Motion() {
         <div class="container">
           <div class="row">
             <div class="col">
-              <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/cpasloinentrain')}>
+              <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/cpasloinentrain')}>
                 <source src="/fiona_motion/Motion/A.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
             <div class="col">
-              <video width="100%" autoPlay={true} muted loop>
+              <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/sncf')}>
                 <source src="/fiona_motion/Motion/B.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
             <div class="col">
-              <video width="100%" autoPlay={true} muted loop>
+              <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/pluridisciplinaire')}>
                 <source src="/fiona_motion/Motion/C.mp4" type="video/mp4"/>
                 Error Message
               </video>
@@ -42,13 +42,13 @@ export default function Motion() {
 
           <div class="row">
             <div class="col">
-              <video width="100%" autoPlay={true} muted loop>
+              <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/bmw')}>
                 <source src="/fiona_motion/Motion/D.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
             <div class="col">
-              <video width="100%" autoPlay={true} muted loop>
+              <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/ane')}>
                 <source src="/fiona_motion/Motion/E.mp4" type="video/mp4"/>
                 Error Message
               </video>

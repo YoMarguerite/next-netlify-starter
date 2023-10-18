@@ -22,7 +22,7 @@ export default function Cpasloinentrain() {
           <div class="row  my-3">
             <div class="col d-flex justify-content-center">
               <video width="60%" autoPlay={true} muted loop controls>
-                <source src="/fiona_motion/Motion/A.mp4" type="video/mp4"/>
+                <source src="/fiona_motion/CPASLOINENTRAIN C/A.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
@@ -57,13 +57,13 @@ export default function Cpasloinentrain() {
           </div>
           <div class="row mt-3">
             <div class="col">
-              <img class="img" src="fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.57.21.jpg"></img>
+              <img class="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.57.21.jpg"></img>
             </div>
             <div class="col">
-              <img class="img" src="fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.57.47.jpg"></img>
+              <img class="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.57.47.jpg"></img>
             </div>
             <div class="col">
-              <img class="img" src="fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.58.21.jpg"></img>
+              <img class="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.58.21.jpg"></img>
             </div>
           </div>
         </div>
