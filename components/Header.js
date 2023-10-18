@@ -1,7 +1,10 @@
 export default function Header({  }) {
   return (
     <div class="container">
-          {/* <img class="head-img" src="https://i.pinimg.com/236x/af/53/94/af5394c51f5d3b2b2aca4128dea12f34.jpg"></img> */}
+      <video width="15%" class="rounded-circle" autoPlay={true} muted loop controls>
+        <source src="/fiona_motion/Logo Home/OEUIL_2.mp4" type="video/mp4"/>
+        Error Message
+      </video>
     </div>
   )
 }
