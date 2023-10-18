@@ -7,12 +7,12 @@ export default function Graphics() {
   return (
     <div className="container">
       <Head>
-        <title>Graphics FioFio</title>
+        <title>Fiona Marguerite</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Fio fio" />
+        <Header title="Fiona Marguerite" />
         <Nav active="Graphics"/>
         <p className="description">
         Graphics
