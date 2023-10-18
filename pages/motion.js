@@ -2,23 +2,26 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Nav from '@components/Nav'
+import { useRouter } from 'next/router';
 
 export default function Motion() {
+  const router = useRouter();
+
   return (
     <div className="container">
       <Head>
-        <title>Motion FioFio</title>
+        <title>Fiona Marguerite</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Fio fio" />
+        <Header title="Fiona Marguerite" />
         <Nav active="Motion"/>
 
         <div class="container">
           <div class="row">
             <div class="col">
-              <video width="100%" autoPlay={true} muted loop>
+              <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/cpasloinentrain')}>
                 <source src="/fiona_motion/Motion/A.mp4" type="video/mp4"/>
                 Error Message
               </video>
