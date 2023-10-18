@@ -8,16 +8,28 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Fiona Marguerite</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Fio fio" />
+        <Header title="Fiona Marguerite" />
         <Nav active="Home"/>
-        <p className="description">
-          Home
-        </p>
+
+        <div class="container">
+
+          <div class="row my-3">
+              <video width="100%" autoPlay={true} muted loop>
+                <source src="/fiona_motion/Logo Home/Showreel Fiona Marguerite.mp4" type="video/mp4"/>
+                Error Message
+            </video>
+          </div>
+
+          <div class="row">
+            <img class="img" src="fiona_motion/Logo Home/bandeau.jpg"></img>
+          </div>
+
+        </div>
       </main>
 
       <Footer />
