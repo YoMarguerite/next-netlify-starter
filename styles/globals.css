@@ -39,6 +39,24 @@ code {
   margin-top:3rem;
 }
 
+@media screen and (min-width: 600px) {
+  .text{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+
 .img{
+  max-width: 20em;
+  max-height: 20em;
+}
+
+.navbar{
   width:100%;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -16,17 +16,17 @@ export default function Home() {
         <Header title="Fiona Marguerite" />
         <Nav active="Home"/>
 
-        <div class="container">
+        <div className="container">
 
-          <div class="row my-3">
+          <div className="row my-3">
               <video width="100%" controls>
                 <source src="/fiona_motion/Logo Home/Showreel Fiona Marguerite.mp4" type="video/mp4"/>
                 Error Message
             </video>
           </div>
 
-          <div class="row">
-            <img class="img" src="fiona_motion/Logo Home/bandeau.jpg"></img>
+          <div className="row">
+            <img className="img" src="fiona_motion/Logo Home/bandeau.jpg"></img>
           </div>
 
         </div>

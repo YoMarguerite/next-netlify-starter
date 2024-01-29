@@ -18,21 +18,21 @@ export default function Motion() {
         <Header title="Fiona Marguerite" />
         <Nav active="Motion"/>
 
-        <div class="container">
-          <div class="row">
-            <div class="col">
+        <div className="container">
+          <div className="row">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/cpasloinentrain')}>
                 <source src="/fiona_motion/Motion/A.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
-            <div class="col">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/sncf')}>
                 <source src="/fiona_motion/Motion/B.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
-            <div class="col">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/pluridisciplinaire')}>
                 <source src="/fiona_motion/Motion/C.mp4" type="video/mp4"/>
                 Error Message
@@ -40,20 +40,20 @@ export default function Motion() {
             </div>
           </div>
 
-          <div class="row">
-            <div class="col">
+          <div className="row">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/bmw')}>
                 <source src="/fiona_motion/Motion/D.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
-            <div class="col">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop onClick={() => router.push('/motion/ane')}>
                 <source src="/fiona_motion/Motion/E.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
-            <div class="col">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop>
                 <source src="/fiona_motion/Motion/F.mp4" type="video/mp4"/>
                 Error Message
@@ -61,20 +61,20 @@ export default function Motion() {
             </div>
           </div>
 
-          <div class="row">
-            <div class="col">
+          <div className="row">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop>
                 <source src="/fiona_motion/Motion/G.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
-            <div class="col">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop>
                 <source src="/fiona_motion/Motion/H.mp4" type="video/mp4"/>
                 Error Message
               </video>
             </div>
-            <div class="col">
+            <div className="col">
               <video width="100%" autoPlay={true} muted loop>
                 <source src="/fiona_motion/Motion/I.mp4" type="video/mp4"/>
                 Error Message

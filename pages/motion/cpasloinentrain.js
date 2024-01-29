@@ -16,11 +16,11 @@ export default function Cpasloinentrain() {
         <Header title="Fiona Marguerite" />
         <Nav active="Motion"/>
         
-        <div class="container mt-3">
+        <div className="container mt-3">
           <h1>#CPASLOINENTRAIN</h1>
 
-          <div class="row  my-3">
-            <div class="col d-flex justify-content-center">
+          <div className="row  my-3">
+            <div className="col d-flex justify-content-center">
               <video width="60%" autoPlay={true} muted loop controls>
                 <source src="/fiona_motion/CPASLOINENTRAIN C/A.mp4" type="video/mp4"/>
                 Error Message
@@ -28,13 +28,9 @@ export default function Cpasloinentrain() {
             </div>
           </div>
 
-          <div class="row">
-
-            <div class="col-3">
-            </div>
-
-            <div class="col-6">
-              <h2 class="mt-2">L'appli #CPASLOINENTRAIN</h2>
+          <div className="row">
+            <div className="col text">
+              <h2 className="mt-2">L'appli #CPASLOINENTRAIN</h2>
 
               <p>
                 Envie d'ailleurs ?<br></br>
@@ -50,20 +46,16 @@ export default function Cpasloinentrain() {
                 Rôle : animation et illustration
               </p>
             </div>
-
-            <div class="col-3">
-            </div>
-
           </div>
-          <div class="row mt-3">
-            <div class="col">
-              <img class="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.57.21.jpg"></img>
+          <div className="row mt-3">
+            <div className="col">
+              <img className="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.57.21.jpg"></img>
             </div>
-            <div class="col">
-              <img class="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.57.47.jpg"></img>
+            <div className="col">
+              <img className="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.57.47.jpg"></img>
             </div>
-            <div class="col">
-              <img class="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.58.21.jpg"></img>
+            <div className="col">
+              <img className="img" src="/fiona_motion/CPASLOINENTRAIN C/Capture d’écran 2023-06-12 à 23.58.21.jpg"></img>
             </div>
           </div>
         </div>

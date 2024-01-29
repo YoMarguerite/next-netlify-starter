@@ -16,11 +16,11 @@ export default function Pluridisciplinaire() {
         <Header title="Fiona Marguerite" />
         <Nav active="Motion"/>
         
-        <div class="container mt-3">
+        <div className="container mt-3">
           <h1>LE CLICHÉ - le design (épisode 1)</h1>
 
-          <div class="row  my-3">
-            <div class="col d-flex justify-content-center">
+          <div className="row  my-3">
+            <div className="col d-flex justify-content-center">
               <video width="60%" autoPlay={true} muted loop controls>
                 <source src="/fiona_motion/Pluridisciplinaire/C.mp4" type="video/mp4"/>
                 Error Message
@@ -28,13 +28,10 @@ export default function Pluridisciplinaire() {
             </div>
           </div>
 
-          <div class="row">
+          <div className="row">
 
-            <div class="col-3">
-            </div>
-
-            <div class="col-6">
-              <h2 class="mt-2">Le design</h2>
+            <div className="col text">
+              <h2 className="mt-2">Le design</h2>
 
               <p>
                 Pour vous c'est quoi le design ?
@@ -57,19 +54,16 @@ export default function Pluridisciplinaire() {
               </p>
             </div>
 
-            <div class="col-3">
-            </div>
-
           </div>
-          <div class="row mt-3">
-            <div class="col">
-              <img class="img" src="/fiona_motion/Pluridisciplinaire/Capture d’écran 2023-06-13 à 00.00.50.jpg"></img>
+          <div className="row mt-3">
+            <div className="col">
+              <img className="img" src="/fiona_motion/Pluridisciplinaire/Capture d’écran 2023-06-13 à 00.00.50.jpg"></img>
             </div>
-            <div class="col">
-              <img class="img" src="/fiona_motion/Pluridisciplinaire/Capture d’écran 2023-06-13 à 00.02.05.jpg"></img>
+            <div className="col">
+              <img className="img" src="/fiona_motion/Pluridisciplinaire/Capture d’écran 2023-06-13 à 00.02.05.jpg"></img>
             </div>
-            <div class="col">
-              <img class="img" src="/fiona_motion/Pluridisciplinaire/Capture d’écran 2023-06-13 à 00.02.28.jpg"></img>
+            <div className="col">
+              <img className="img" src="/fiona_motion/Pluridisciplinaire/Capture d’écran 2023-06-13 à 00.02.28.jpg"></img>
             </div>
           </div>
         </div>

@@ -4,18 +4,18 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <div class="container">
-          <div class="row">
-            <div class="col">
+        <div className="container">
+          <div className="row">
+            <div className="col">
             <img src="/instagram.svg" className={styles.logo} />
             </div>
-            <div class="col">
+            <div className="col">
             <img src="/vimeo.svg" className={styles.logo} />
             </div>
-            <div class="col">
+            <div className="col">
             <img src="/behance.svg" className={styles.logo} />
             </div>
-            <div class="col">
+            <div className="col">
             <img src="/linkedin.svg" className={styles.logo} />
             </div>
           </div>
